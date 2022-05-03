@@ -1,2 +1,2 @@
 # Vanishing results over the Siegel variety
-This is a code that computes vanishing results for the coherent cohomology of Siegel varieties over \F_p.
+This repository is associated to the following publication https://arxiv.org/abs/2202.06691.
