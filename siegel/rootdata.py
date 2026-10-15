@@ -54,8 +54,8 @@ class SiegelData:
 
     ``X`` is a smooth projective toroidal compactification of the Siegel variety
     of genus ``g`` over ``F_p``, of dimension ``d = g(g+1)/2``, with boundary
-    ``D``.  Theorem 6.16' assumes ``p > g^2``, which is enforced here; pass
-    ``check=False`` only to explore the boundary of that hypothesis deliberately.
+    ``D``.  Theorem 6.16' assumes ``p > d_0``; the uniform bound ``p > g^2`` is
+    enforced here; pass ``check=False`` only to explore that bound deliberately.
     """
 
     def __init__(self, g, p, check=True):
